@@ -36,7 +36,7 @@ public class ChatClient extends JFrame implements Runnable, ActionListener{
 
     int compression = 0; // level of compression
     int cmpressto = ClientShared.bytesize / 2; // sets the compression to half of the byte size
-    int leftover = 0; // how much is left over to spair out of cmpressto value
+    int leftover = 0; // how much is left over to spair out of cmpress to value
     boolean useleftover = true;
     int MaximumCompression = 9; //maximum amout of compression we want
 
@@ -73,7 +73,7 @@ public class ChatClient extends JFrame implements Runnable, ActionListener{
     int avgsize = 0; // everadge sent size
     int avgcounter = 0; // counter varible for send ++
 
-    int recievecounter = 0; // counter variable for recieve ++
+    int receivecounter = 0; // counter variable for recieve ++
     int currentsecondSound = 0; // how much data i recieved this second in bytes
 
     //key down recording variables
